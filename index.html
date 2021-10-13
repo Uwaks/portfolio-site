@@ -23,15 +23,23 @@
           <span class="txt-type" data-wait="3000" data-words='["Frontend", "Backend", "Fullstack"]'></span>
         </h1>
         <h2>Full Stack Developer</h2>
-        <div>
-            <a href="#about">View My Work</a>
+        <div class="hero-link">
+            <a href="#portfolio">View My Work<i class="fas fa-angle-double-down"></i></a>
         </div>
-        
     </div>
 
     <!-- About Me -->
 <section class="section-about-me" id="about">
+  <div class="about-me-header">
     <h1 class="section-title">About Me</h1>
+    <article class="brand-statement">
+      <p class="article-lead">I am a Fullstack Software Engineer with a background in community development and engagement, and communications.</p>
+      <p>The skills I picked up along the way have allowed me to work in a variety of industries including the life sciences, flavour and fragrances, non-government organisations and charity sectors. One constant throughout has been my love for using code to provide business solutions, usually in the form of an Excel macro or hacked together VBA code.</p>
+      <p>The hunt for a deeper understanding of the tools I used everyday led me down the coding rabbit-hole that started with building my own WordPress themes and plugins and ended on a three month immersive Software Engineering Course with General Assembly.</p>
+      <p>Now equipped with the skills and knowledge of a full stack software engineer, I am looking to join a team that can harness my passion for coding and grow my creative problem-solving skills. I cut my coding teeth on the MERN stack, but like any good craftsman I’m always looking to expand my toolset.</p>
+    </article>
+  </div>
+    
     <div class="skills">
         <div class="skill-icons">
             <div class="icon-div">
@@ -55,11 +63,11 @@
                 <p class="icon-text">Nodejs</p>
             </div>
             <div class="icon-div">
-                <i class="devicon-express-original"></i>
+                <i class="fab devicon-express-original"></i>
                 <p class="icon-text">Express</p>
             </div>
             <div class="icon-div">
-                <i class="devicon-mongodb-plain"></i>
+                <i class="fab devicon-mongodb-plain"></i>
                 <p class="icon-text">MongoDB</p>
             </div>
             <div class="icon-div">
@@ -67,7 +75,7 @@
                 <p class="icon-text">Python</p>
             </div>
             <div class="icon-div">
-                <i class="devicon-postgresql-plain"></i>
+                <i class="fab devicon-postgresql-plain"></i>
                 <p class="icon-text">PostgreSQL</p>
             </div>
             <div class="icon-div">
@@ -87,85 +95,109 @@
                 <p class="icon-text">Bootstrap</p>
             </div>
             <div class="icon-div">
-                <i class="devicon-heroku-original"></i>
+                <i class="fab devicon-heroku-original"></i>
                 <p class="icon-text">Heroku</p>
             </div>
             <div class="icon-div">
                 <i class="fab fa-npm"></i>
                 <p class="icon-text">npm</p>
             </div>
+            <div class="icon-div">
+              <i class="fab devicon-slack-plain"></i>
+              <p class="icon-text">Slack</p>
+            </div>
+            <div class="icon-div">
+              <i class="fab fa-sass"></i>
+              <p class="icon-text">SASS</p>
+            </div>
         </div>
     </div>
-
 </section>
     <!-- My Portfolio -->
 <section class="section-portfolio" id="portfolio">
-    <h1 class="section-title">My Portfolio</h1>
-
-    <div class="project-section-wrapper">
-        <h2>SWAPxSHOP</h2>
+    <h1 class="section-title-portfolio">My Portfolio</h1>
+    <div class="section-portfolio-wrapper">
+      <div class="project-section-wrapper">
         <div class="project-wrapper">
             <div class="project-image">
-                <img class="project-img" src=""/>
+                <img class="project-img" src="assets/images/project4-laptop.png"/>
             </div>
-            <div class="project-description">
-                <p></p>
-                <div class="project-icon">
-                    <a href="https://github.com/Uwaks/project-four-frontend"><i class="fab fa-github"></i></a> 
+            <div class="project-description right">
+              <h2>SWAPxSHOP</h2>
+                <p>Pair Project | One Week</p>
+                <div class="project-icon right">
+                  <p>The SWAPxSHOP app is a marketplace for football fans to sell player jersey’s to other fans, built with React on the frontend and Python, Django and PostgreSQL on the backend.</p>
+                    <a href="https://github.com/Uwaks/project-four-frontend" target="_blank"><i class="fab fa-github port"></i>View on GitHub</a>
+                    <a href="https://swapxshop.netlify.app/" target="_blank"><i class="fas fa-link"></i>Open Project</a> 
                 </div>
             </div>
         </div>        
     </div>
 
     <div class="project-section-wrapper">
-        <h2>Away Days</h2>
         <div class="project-wrapper">
-            <div class="project-description">
-                <p></p>
-                <div class="project-icon">
-                    <a href="https://github.com/Uwaks/project-three-frontend"><i class="fab fa-github"></i></a> 
+            <div class="project-description left">
+              <h2>Away Days</h2>
+                <p>Group Project | One Week</p>
+                <div class="project-icon left">
+                  <p>Away Days is a football match day app for away supporters to share information about their favourite pubs around football stadiums.</p>
+                    <a href="https://github.com/Uwaks/project-three-frontend" target="_blank"><i class="fab fa-github"></i>View on GitHub</a>
+                    <a href="https://away-days-app.netlify.app/" target="_blank"><i class="fas fa-link"></i>Open Project</a> 
                 </div>
             </div>
             <div class="project-image">
-                <img class="project-img" src=""/>
+                <img class="project-img" src="assets/images/project3-laptop.png"/>
             </div>
         </div>        
     </div>
 
     <div class="project-section-wrapper">
-        <h2>React Quiz App</h2>
         <div class="project-wrapper">
             <div class="project-image">
-                <img class="project-img" src=""/>
+                <img class="project-img potrait" src="assets/images/project2-laptop.png"/>
             </div>
-            <div class="project-description">
-                <p></p>
-                <div class="project-icon">
-                    <a href="https://github.com/Uwaks/sei-project-two"><i class="fab fa-github"></i></a> 
+            <div class="project-description right">
+              <h2>React Quiz App</h2>
+                <p>Pair Project | 48hr Hackathon</p>
+                <div class="project-icon right">
+                  <p>Pair-programming hackathon using the Open Trivia Database API to access trivia questions and multiple answers and display them on a React frontend.</p>
+                    <a href="https://github.com/Uwaks/sei-project-two" target="_blank"><i class="fab fa-github port"></i>View on GitHub</a>
+                    <a href="" target="_blank"><i class="fas fa-link"></i>Open Project</a> 
                 </div>
             </div>
         </div>        
     </div>
 
     <div class="project-section-wrapper">
-        <h2>Space Invaders</h2>
-        <div class="project-wrapper">
-            <div class="project-description">
-                <p></p>
-                <div class="project-icon">
-                    <a href="https://github.com/Uwaks/sei-project-one"><i class="fab fa-github"></i></a> 
+        <div class="project-wrapper left">
+            <div class="project-description left">
+              <h2>Space Invaders</h2>
+                <p>Solo Project | One Week</p>
+                <div class="project-icon left">
+                  <p>Space invaders with a Black Panther theme overlaying a JavaScript generated grid with movement patterns simulated by adding and removing CSS classes.</p>
+                    <a href="https://github.com/Uwaks/sei-project-one" target="_blank"><i class="fab fa-github port"></i>View on GitHub</a> 
+                    <a href="https://uwaks.github.io/sei-project-one/" target="_blank"><i class="fas fa-link"></i>Open Project</a>
                 </div>
             </div>
             <div class="project-image">
-                <img class="project-img" src=""/>
+                <img class="project-img" src="assets/images/project1-laptop.png"/>
             </div>
         </div>        
     </div>
+    </div>
+    
 
 </section>
     <!-- Contact Me -->
 <section class="section-contact-me" id="contact">
-
+  <h1 class="section-title-contact-me">Contact Me</h1>
+  <div section-wrapper>
+    <div class="contact-icons">
+      <a href="https://github.com/Uwaks" class="icons"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/nnanna-uwakwe/" class="icons"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto: nnanna.uwakwe@outlook.com" class="icons"><i class="fas fa-envelope-open-text"></i></a>
+    </div>
+  </div>
 </section>
     <div class="footer"></div>  
 <script src="./scripts/typewriter.js"></script>
